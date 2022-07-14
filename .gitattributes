@@ -1,0 +1,8 @@
+*.cmd                     text    eol=crlf
+
+*.js                      text    eol=crlf
+
+*.txt                     text    eol=crlf
+
+README.md                         eol=crlf
+

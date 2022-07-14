@@ -1,0 +1,2 @@
+# tee.js
+proof of concept. tee that preserves the exit code of the original process, handled by nodejs, so - cross OS! it launches the application, and shows a live feed from BOTH stdout and stderr as it arrives (tee is limited to only stdout), at the same time it writes (append) to two files out.txt and err.txt (can be modified to write to one), then nodejs will exit with the same exit code of the application. early stage development, eventually it should be compatible with tee command ;) sample batch files provided with various exit codes and stdout-stderr outputs.
